@@ -43,9 +43,9 @@ const Wrapper = styled.div`
 `;
 
 const Text = styled.div`
-  width: 500px;
+  width: 800px;
   h1 {
-    font-size: 78px;
+    font-size: 58px;
     font-weight: 500;
 
     color: white;
