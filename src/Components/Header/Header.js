@@ -30,6 +30,7 @@ const Container = styled.div`
   width: 100%;
   display: flex;
   align-items: center;
+  background-color: white;
   justify-content: center;
   //   border-bottom: 1px solid rgb(230, 230, 250);
   z-index: 5;
@@ -38,7 +39,7 @@ const Container = styled.div`
 const Wrapper = styled.div`
   height: 100%;
   width: 90%;
-  padding: 10px 0;
+  padding: 5px 0;
   max-width: 1140px;
   display: flex;
   align-items: center;

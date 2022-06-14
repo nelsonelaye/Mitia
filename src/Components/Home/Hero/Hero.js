@@ -27,15 +27,15 @@ const Container = styled.div`
   position: relative;
 `;
 const Wrapper = styled.div`
-  width: 100%;
+  width: 90%;
   color: white;
   flex-wrap: wrap;
   height: 100%;
   padding: 30px 0;
   box-sizing: border-box;
   display: flex;
-  align-items: center;
-  justify-content: space-around;
+  align-items: flex-start;
+  //   justify-content: space-around;
   z-index: 5;
   @media screen and (max-width: 768px) {
     padding: 50px 30px 20px;
@@ -43,15 +43,15 @@ const Wrapper = styled.div`
 `;
 
 const Text = styled.div`
-  width: 800px;
+  width: 600px;
   h1 {
-    font-size: 58px;
-    font-weight: 500;
+    font-size: 68px;
+    font-weight: 600;
 
     color: white;
   }
   h5 {
-    font-size: 78px;
+    font-size: 30px;
     font-weight: 400;
     color: black;
   }
