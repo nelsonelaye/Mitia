@@ -78,6 +78,10 @@ const Founder = styled.div`
     width: 350px;
     align-items: center;
   }
+
+  @media screen and (max-width: 425x) {
+    width: 300px;
+  }
 `;
 
 const ProfileImage = styled.div`
@@ -94,6 +98,10 @@ const ProfileImage = styled.div`
 const Text = styled.div`
   flex: 0.65;
   padding: 30px 30px 20px 20px;
+  box-sizing: border-box;
+  @media screen and (max-width: 425px) {
+    flex: 1;
+  }
 `;
 const Title = styled.div`
   font-size: 35px;
@@ -117,6 +125,9 @@ const Name = styled.div`
   font-size: 20px;
   font-weight: 600;
   font-family: Monserrat;
+  @media screen and (max-width: 425px) {
+    font-size: 18px;
+  }
 `;
 const Read = styled.div`
   font-size: 18px;
@@ -126,6 +137,9 @@ const Read = styled.div`
   transition: all 350ms;
   :hover {
     transform: scale(1.15);
+  }
+
+  @media screen and (max-width: 425px) {
   }
 `;
 const Agency = styled.div``;
