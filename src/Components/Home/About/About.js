@@ -79,7 +79,7 @@ const Founder = styled.div`
     align-items: center;
   }
 
-  @media screen and (max-width: 425x) {
+  @media screen and (max-width: 425px) {
     width: 300px;
   }
 `;
@@ -91,8 +91,8 @@ const ProfileImage = styled.div`
     width: 100%;
   }
 
-  @media screen and (max-width: 768px){
-      width 100%;
+  @media screen and (max-width: 425px) {
+    width: 280px;
   }
 `;
 const Text = styled.div`

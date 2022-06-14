@@ -40,7 +40,10 @@ const Wrapper = styled.div`
   align-items: center;
   justify-content: space-around;
   @media screen and (max-width: 768px) {
-    padding: 50px 30px 20px;
+    padding: 50px 20px 20px;
+  }
+  @media screen and (max-width: 768px) {
+    width: 100%;
   }
 `;
 
