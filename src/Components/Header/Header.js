@@ -33,7 +33,7 @@ const Container = styled.div`
   background-color: white;
   justify-content: center;
   //   border-bottom: 1px solid rgb(230, 230, 250);
-  z-index: 5;
+  z-index: 15;
 `;
 
 const Wrapper = styled.div`
@@ -82,6 +82,10 @@ const Nav = styled.div`
 
   :hover {
     color: var(--green);
+  }
+
+  @media screen and (max-width: 1024px) {
+    margin: 0 15px;
   }
 `;
 const Button = styled.div`
